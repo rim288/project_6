@@ -1,0 +1,127 @@
+/* start section one */
+.landing-page {
+width: 80%;
+margin: auto;
+text-align: center;
+height: 80vh;
+}
+.landing-page > img {
+    margin: 60px 00px;
+}
+body {
+    font-family: sans-serif;
+    background-image: url(/images\Capturecran.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.landing-page h1 {
+    color: grey;
+    margin: 40px 00px;
+}
+.landing-page P  {
+    color: rgba(128, 128, 128, 0.273);
+    line-height: 1.8;
+   max-width: 70%;
+    margin: 40px opx;
+}
+.landing-page button {
+    padding: 10px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin: 30px auto;
+}
+.landing-page button:nth-of-type(1) {
+    background-color: rgb(8, 163, 163);
+}
+.landing-page button:nth-of-type(2) {
+    background-color: rgba(63, 63, 198, 0.347);
+}
+@media (max-width:575px) {
+    button {
+        display: block;
+        margin: auto;
+    }
+
+}
+/* end heading page */
+/* start section one*/
+.container {
+    width: 80%;
+    margin: auto;
+}
+.container .section-one {
+    text-align: center;
+    line-height: 1.8;
+}
+.container .section-one h2 {
+color: grey;
+}
+.container .section-one P {
+color: rgba(128, 128, 128, 0.292);
+}
+.section-two {
+    display: flex;
+    gap: 35px;
+}
+.section-two > div {
+    
+}
+@media (max-width:575px){
+    .section-two {
+        flex-direction: column;
+    }
+}
+@media (max-width:575px) {
+    .section-two > .col-text {
+        text-align: center;
+    }
+}
+.sec-four img {
+    max-width: 90%;
+    margin-top: 50px 0px;
+}
+.sec-five {
+    margin-top: 70px;
+}
+.sec-five .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+.sec-five .container .card p {
+    line-height: 1.8;
+}
+@media (max-width:567px) {
+    .sec-five .container {
+        flex-direction: column;
+    }
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:567px) {
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+footer .container > div a {
+    display: block;
+    margin: 10px;
+}
+.sm img {
+    margin: 10px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.319);
+    padding: 20px;
+}
